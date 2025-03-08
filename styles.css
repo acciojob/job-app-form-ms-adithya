@@ -1,2 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-/* Your CSS Code here. */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightblue;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: black;
+}
+
+input, select, button {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+}
+
+.gender-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+button {
+    background-color: lightblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
